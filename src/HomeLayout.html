@@ -3,7 +3,7 @@
 <head>
     <style>
         body {
-            background: linear-gradient(to right, #0a051f, rgb(92, 3, 80));
+            background: linear-gradient(to right, #090725, rgb(153, 33, 143));
             font-family: 'Gill Sans MT', sans-serif;
             display: flex;
             flex-direction: column;
@@ -13,13 +13,14 @@
         }
 
         nav {
+            background:  #331b33;
             position: fixed;
-            top: 10px;
+            top: 0px;
             left: 0;
             right: 0;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 18px 0;
             z-index: 1000;
         }
 
@@ -27,8 +28,7 @@
             font-size: 14px;
             color: white;
             text-decoration: none;
-            margin: 0 5px;
-            padding: 5px 10px;
+            padding: 15px;
             border-radius: 5px;
             font-family: 'Gill Sans MT', sans-serif
         }
@@ -51,17 +51,26 @@
         }
 
         .ProfileImage {
-            width: 250px;
-            height: 250px;
+            width: 220px;
+            height: 220px;
             border-radius: 50%;
-            filter: grayscale(60%);
+            filter: grayscale(40%);
         }
 
         .jurusan {
             color: white;
             font-family: monospace, sans-serif;
             text-align: center;
+            margin-top: 5px;
+            font-size: 20px;
+        }
+
+        .univ {
+            color: white;
+            font-family: monospace, sans-serif;
+            text-align: center;
             margin-top: 10px;
+            font-size: 20px;
         }
         
         .npm {
@@ -69,6 +78,7 @@
             font-family: monospace, sans-serif;
             text-align: center;
             margin-top: 5px;
+            font-size: 20px;
         }
 
         .nama {
@@ -77,11 +87,11 @@
             text-align: center;
             margin-top: 5px;
             font-weight: bolder;
-            font-size: 40px;
+            font-size: 50px;
         }
 
         .jadwal {
-            background-color: #cf5b2e;
+            background-color: #d33c00;
             color: white;
             font-family: monospace, sans-serif;
             text-align: center;
@@ -97,8 +107,15 @@
             font-size: 20px;
             font-family: monospace, sans-serif;
             text-align: center;
-            font-weight: bold;
             margin-top: 20px;
+        }
+        
+        .from {
+            color: white;
+            font-size: 20px;
+            font-family: monospace, sans-serif;
+            text-align: center;
+            margin-top: 10px;
         }
 
     </style>
@@ -106,13 +123,12 @@
 </head>
 
 <body>
-
-    <div class="Judul">
-        PrakWeb
-        <img src="../res/image.png" alt="icon" class="icon">
-    </div>
     
     <nav>
+        <div class="Judul">
+            PrakWeb
+            <img src="../res/image.png" alt="icon" class="icon">
+        </div>
         <a href="HomeLayout.html">HOME</a>
         <a href="#">ABOUT</a>
         <a href="#">CONTACT</a>
@@ -122,6 +138,8 @@
     <img src="../res/fuad2.png" alt="ProfileImage" class="ProfileImage">
     <div class="hi">Hi, i'am</div>
     <div class="nama">Fuad Hamidan</div>
+    <div class="from">from</div>
+    <div class="univ">Lampung University</div>
     <div class="jurusan">Computer Science</div>
     <div class="npm">2257051025</div>
     <div class="jadwal">
